@@ -1,0 +1,21 @@
+# Baseline experiment config (Week 3)
+model:
+  backbone: vit_base_patch16_224   # timm name
+  pretrained: true
+data:
+  train_csv: data_labels/train_final.csv
+  val_csv: data_labels/val_final.csv
+  test_csv: data_labels/test_final.csv
+  img_dir: ./images
+  img_size: 224
+train:
+  epochs: 15
+  batch_size: 32
+  lr: 0.0001
+  seed: 42
+  mixed_precision: true
+eval:
+  skin_groups: [light, medium, dark]
+  metrics: [auc, f1, fairness_gap, equalized_odds_diff]
+wandb:
+  project: cap679-dermatology-fairness
