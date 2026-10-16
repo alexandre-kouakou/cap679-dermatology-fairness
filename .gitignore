@@ -1,6 +1,6 @@
 # ---- Data: NEVER commit images or datasets (license + size) ----
-images/
-data/
+/images/
+/data/
 *.jpg
 *.jpeg
 *.png
