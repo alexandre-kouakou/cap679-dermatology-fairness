@@ -14,4 +14,8 @@ VAL_FRAC = 0.15
 TEST_FRAC = 0.15
 
 # Problem definition
+IMAGENET_MEAN = [0.485, 0.456, 0.406]
+IMAGENET_STD = [0.229, 0.224, 0.225]
+
+
 
