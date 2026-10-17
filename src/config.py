@@ -8,6 +8,8 @@ CHECKPOINT_DIR = PROJECT_ROOT / "checkpoints"
 RESULTS_DIR    = PROJECT_ROOT / "results"
 FITZ_CSV = RAW / "fitzpatrick17k" / "fitzpatrick17ku.csv"
 FITZ_IMG_DIR = RAW / "fitzpatrick17k"
+DDI_CSV = RAW / "ddi" / "ddi_metadata.csv"
+DDI_IMG_DIR = RAW / RAW / "ddi"
 
 # Reproducibility
 RANDOM_SEED = 42
